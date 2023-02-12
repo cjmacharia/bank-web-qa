@@ -1,0 +1,9 @@
+{
+  "firstName": "Magnus",
+  "lastName": "Ritchie",
+  "postCode": "25476",
+  "deposit": 105,
+  "withdraw": 5,
+  "negativeWithdraw": 89927,
+  "account_number": "Account created successfully with account Number :1016"
+}
