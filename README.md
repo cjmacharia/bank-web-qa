@@ -5,7 +5,7 @@
  
  **clone the repository:**
 
- https://github.com/cjmash/bank-web.git
+https://github.com/cjmash/bank-web-qa.git
  
 **Install the dependencies**
  
