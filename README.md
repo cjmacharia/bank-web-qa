@@ -21,11 +21,13 @@
 **sample test reports.**
 
 
- A test report can be found in [testReports](testReports/)
+ A test report can be found in
  
-**After test runs tests reports are generated to **
+   - [testReports](testReports/)
+ 
+**After test runs tests reports are generated to**
 
-cypress/reports/html/index.html
+- cypress/reports/html/index.html
 
 
 
