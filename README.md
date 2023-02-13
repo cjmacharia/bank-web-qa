@@ -18,6 +18,6 @@
 **sample test reports.**
 
 
- A test report can be found in testReports/web-bank-report(QA).pdf
+ A test report can be found in [testReports](testReports/web-bank-report(QA).pdf)
 
 
