@@ -10,9 +10,13 @@
  
  - npm install
  
-**Run the tests**:
+**Run the tests in headless mode**:
  
  - npm run test
+ 
+ **Run the tests in headed mode**:
+ 
+ - npm run e2e-headed
 
 **sample test reports.**
 
