@@ -11,6 +11,7 @@ module.exports =  defineConfig({
     retries: {
       runMode: 2
     },
+    
     setupNodeEvents(on, config) {
       this.screenshotOnRunFailure=true;
       require('cypress-mochawesome-reporter/plugin')(on);

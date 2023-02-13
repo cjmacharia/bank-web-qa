@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headed"
+    "e2e-headed": "npx cypress run --headed",
+    "test": "npx cypress run"
+
   },
   "author": "",
   "license": "ISC",
