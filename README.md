@@ -16,6 +16,8 @@
  - npm run test
 
 **sample test reports.**
- A test report can be found in web-bank-report.pdf 
+
+
+ A test report can be found in testReports/web-bank-report(QA).pdf
 
 
