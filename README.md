@@ -1,17 +1,16 @@
 **This project uses Cypress for end-to-end testing for a bank web application.**
 
-
- **To run the tests, follow these steps**:
+**To run the tests, follow these steps**:
  
  **clone the repository:**
 
-https://github.com/cjmash/bank-web-qa.git
+  - https://github.com/cjmash/bank-web-qa.git
  
 **Install the dependencies**
  
  - npm install
  
- **Run the tests**:
+**Run the tests**:
  
  - npm run test
 
