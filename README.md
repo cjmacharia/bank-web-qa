@@ -22,5 +22,10 @@
 
 
  A test report can be found in [testReports](testReports/)
+ 
+**After test runs tests reports are generated to **
+
+cypress/reports/html/index.html
+
 
 
