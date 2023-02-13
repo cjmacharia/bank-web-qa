@@ -1,2 +1,5 @@
 /node_modules
-/reports
+/cypress/reports
+.DS_Store
+cypress/fixtures/testData.json
+cypress/.DS_Store

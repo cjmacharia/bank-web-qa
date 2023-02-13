@@ -1,7 +1,7 @@
 import loginPage from '../../pages/loginPage';
 import selectCustomerPage from '../../pages/selectCustomerPage';
 import accountsPage from '../../pages/accountsPage'
-describe('Login test cases', () => {
+describe('Customer login test cases', () => {
   before(() => {
     loginPage.clickHomeButton()
   })

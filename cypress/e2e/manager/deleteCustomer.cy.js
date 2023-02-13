@@ -1,7 +1,7 @@
 import loginPage from '../../pages/loginPage';
 import managerPage from '../../pages/managerPage';
 import customersPage from '../../pages/allCustomersPage'
-describe('delete customers', () => {
+describe('Manager delete customers', () => {
   it('should successfully delete a customer', () => {
     loginPage.clickHomeButton()
     loginPage.clickMangerButton();

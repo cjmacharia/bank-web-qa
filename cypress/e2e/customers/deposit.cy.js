@@ -1,6 +1,6 @@
 import depositPage from '../../pages/depositPage';
 import accountsPage from '../../pages/accountsPage';
-describe('deposit amount testcases', () => {
+describe('Customer deposit amount testcases', () => {
   it('should successfully deposit money into my account', () => {
     accountsPage.clickdepositButton()
     depositPage.elements.depositButton().should('have.text', 'Deposit')

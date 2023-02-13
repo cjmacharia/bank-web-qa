@@ -1,6 +1,6 @@
 import accountsPage from '../../pages/accountsPage';
 import transactionsPage from '../../pages/transactionsPage';
-describe('Transactions testcases', () => {
+describe('Customer transactions testcases', () => {
   it('should display the transactions made', () => {
     accountsPage.clicktranscationsButton();
     cy.fixture('testData.json').then(data => {

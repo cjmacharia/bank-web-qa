@@ -2,7 +2,7 @@ import loginPage from '../../pages/loginPage';
 import addCustomersPage from '../../pages/addCustomersPage';
 import managerPage from '../../pages/managerPage';
 
-describe('add customers', () => {
+describe('Manager add customers', () => {
     before (() => {
         loginPage.clickHomeButton()
     })

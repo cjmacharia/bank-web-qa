@@ -1,18 +1,18 @@
-import LoginPage from '../../pages/loginPage';
+import loginPage from '../../pages/loginPage';
 import managerPage from '../../pages/managerPage';
-import OpenAccountsPage from '../../pages/openAccountPage'
-describe('Open customers accounts', () => {
+import openAccountsPage from '../../pages/openAccountPage'
+describe('Manager open customers accounts', () => {
   beforeEach (() => {
-    LoginPage.clickHomeButton()
+    loginPage.clickHomeButton()
   })
   it('should successfully create a customer account', () => {
-    LoginPage.clickMangerButton();
+    loginPage.clickMangerButton();
     managerPage.elements.openAccountButton().should('be.visible');
     managerPage.clickOpenAccountButton()
     cy.fixture('testData.json').then((data) => {
-        OpenAccountsPage.selectCustomer(`${data.firstName} ${data.lastName}`);
+        openAccountsPage.selectCustomer(`${data.firstName} ${data.lastName}`);
     })
-    OpenAccountsPage.selectCurrency('Pound');
+    openAccountsPage.selectCurrency('Pound');
     let alertContent;
     cy.on('window:alert', message => {
         cy.wrap(new Promise((resolve, reject) => {
@@ -27,7 +27,7 @@ describe('Open customers accounts', () => {
         });
       });
 
-    OpenAccountsPage.clickProcessButton();
+    openAccountsPage.clickProcessButton();
 
     // update test data with customer id 
     cy.fixture('testData.json').then((data) => {

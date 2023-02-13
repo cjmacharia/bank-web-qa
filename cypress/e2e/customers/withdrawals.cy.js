@@ -1,7 +1,7 @@
 import withdrawPage from '../../pages/withdrawPage';
 import accountsPage from '../../pages/accountsPage';
 
-describe('withdraw amount testcases', () => {
+describe('Customer withdraw amount testcases', () => {
     beforeEach (() => {
         accountsPage.clickwithdrawlButton();
       })

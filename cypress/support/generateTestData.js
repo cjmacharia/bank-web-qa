@@ -1,9 +1,8 @@
-// import path from "path"
-// import * as fs from 'fs'
-// import {faker} from "@faker-js/faker"
-const path = require('path') 
-const fs = require('fs') 
-const {faker} = require("@faker-js/faker")
+
+const path = require('path');
+const fs = require('fs');
+const {faker} = require("@faker-js/faker");
+
 // We want to create new customer data everytime we run tests
 const createData = () => ({
   firstName: faker.name.firstName(),
