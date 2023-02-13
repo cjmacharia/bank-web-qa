@@ -4,7 +4,7 @@ import managerPage from '../../pages/managerPage';
 
 describe('Manager add customers', () => {
     before (() => {
-        loginPage.clickHomeButton()
+        loginPage.clickHomeButton();
     })
 
     it('should successfully add a customer', () => {
@@ -56,7 +56,7 @@ describe('Manager add customers', () => {
                 cy.fail(error);
             });
             });
-            addCustomersPage.clickAddCustomer()
+            addCustomersPage.clickAddCustomer();
         })
 
   })

@@ -5,13 +5,13 @@ class SelectCustomerPage {
     }
 
     selectYourName(customer) {
-        this.elements.selectUser().select(customer)
+        this.elements.selectUser().select(customer);
     }
 
     clickLoginButton() {
-        this.elements.loginButton().click()
+        this.elements.loginButton().click();
     }
 
 }
 
-export default new SelectCustomerPage()
+export default new SelectCustomerPage();

@@ -16,4 +16,4 @@ class withdrawalPage {
     }
 }
 
-export default new withdrawalPage()
+export default new withdrawalPage();

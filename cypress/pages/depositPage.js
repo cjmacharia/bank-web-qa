@@ -13,4 +13,4 @@ class DepositsPage {
     }
 }
 
-export default new DepositsPage()
+export default new DepositsPage();

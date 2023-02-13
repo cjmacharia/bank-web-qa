@@ -18,4 +18,4 @@ class AccountsPage {
     }
 }
 
-export default new AccountsPage()
+export default new AccountsPage();

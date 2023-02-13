@@ -7,11 +7,11 @@ class OpenAccountsPage {
     }
 
     selectCustomer(customer) {
-        this.elements.customerNameDropDown().select(customer)
+        this.elements.customerNameDropDown().select(customer);
     }
 
     selectCurrency(currency) {
-        this.elements.currencyNameDropDown().select(currency)
+        this.elements.currencyNameDropDown().select(currency);
     }
 
     clickProcessButton() {
@@ -19,4 +19,4 @@ class OpenAccountsPage {
     }
 }
 
-export default new OpenAccountsPage()
+export default new OpenAccountsPage();

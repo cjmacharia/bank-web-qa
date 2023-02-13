@@ -6,4 +6,4 @@ class TransactionsPage {
 
 }
 
-export default new TransactionsPage()
+export default new TransactionsPage();

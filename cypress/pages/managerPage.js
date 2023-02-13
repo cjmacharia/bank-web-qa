@@ -21,4 +21,4 @@ class ManagerPage {
 
 }
 
-export default new ManagerPage()
+export default new ManagerPage();

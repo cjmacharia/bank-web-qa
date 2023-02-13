@@ -11,7 +11,7 @@ describe('Customer withdraw amount testcases', () => {
     cy.fixture('testData').then(data => {
         withdrawPage.enterAnAmount(data.withdraw);
     })
-    withdrawPage.withdrawAmount()
+    withdrawPage.withdrawAmount();
     withdrawPage.elements.message().should('have.text', 'Transaction successful');
   })
 

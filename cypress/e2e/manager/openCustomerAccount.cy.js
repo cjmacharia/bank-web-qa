@@ -1,14 +1,14 @@
 import loginPage from '../../pages/loginPage';
 import managerPage from '../../pages/managerPage';
-import openAccountsPage from '../../pages/openAccountPage'
+import openAccountsPage from '../../pages/openAccountPage';
 describe('Manager open customers accounts', () => {
   beforeEach (() => {
-    loginPage.clickHomeButton()
+    loginPage.clickHomeButton();
   })
   it('should successfully create a customer account', () => {
     loginPage.clickMangerButton();
     managerPage.elements.openAccountButton().should('be.visible');
-    managerPage.clickOpenAccountButton()
+    managerPage.clickOpenAccountButton();
     cy.fixture('testData.json').then((data) => {
         openAccountsPage.selectCustomer(`${data.firstName} ${data.lastName}`);
     })

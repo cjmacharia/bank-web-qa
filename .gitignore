@@ -1,5 +1,7 @@
 /node_modules
-/cypress/reports
+cypress/reports
 .DS_Store
 cypress/fixtures/testData.json
+cypress/videos
+cypress/screenshots
 cypress/.DS_Store

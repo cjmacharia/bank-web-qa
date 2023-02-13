@@ -25,4 +25,4 @@ class AddCustomersPage {
     }
 }
 
-export default new AddCustomersPage()
+export default new AddCustomersPage();

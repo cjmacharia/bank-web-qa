@@ -16,4 +16,4 @@ class CustomersPage {
 
 }
 
-export default new CustomersPage()
+export default new CustomersPage();
